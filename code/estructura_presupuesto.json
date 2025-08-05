@@ -1,0 +1,66 @@
+[
+    [
+        "01",
+        "TRABAJOS PRELIMINARES",
+        "categoria"
+    ],
+    [
+        "01.01",
+        "MOVILIZACION Y DESMOVILIZACION DE EQUIPOS",
+        "partida",
+        "glb"
+    ],
+    [
+        "01.02",
+        "TOPOGRAFIA Y GEORREFERENCIACION",
+        "partida",
+        "m2"
+    ],
+    [
+        "01.03",
+        "CAMPAMENTO PROVISIONAL, ALMACEN Y OFICINAS",
+        "partida",
+        "glb"
+    ],
+    [
+        "01.04",
+        "MANTENIMIENTO DE TRANSITO TEMPORAL Y SEGURIDAD VIAL",
+        "partida",
+        "glb"
+    ],
+    [
+        "01.05",
+        "ACCESOS PROVISIONALES",
+        "partida",
+        "km"
+    ],
+    [
+        "02",
+        "DEMOLICION Y MOVIMIENTO DE TIERRAS",
+        "categoria"
+    ],
+    [
+        "02.01",
+        "DEMOLICION DE ESTRUCTURAS DE CONCRETO ARMADO",
+        "partida",
+        "m3"
+    ],
+    [
+        "02.02",
+        "DEMOLICION DE ESTRUCTURAS DE CONCRETO SIMPLE",
+        "partida",
+        "m3"
+    ],
+    [
+        "02.03",
+        "DESMONTAJE DE ESTRUCTURAS METALICAS (ALCANTARILLAS)",
+        "partida",
+        "ton"
+    ],
+    [
+        "02.04",
+        "EXCAVACION Y ELIMINACION DE MATERIAL DE RELLENO EN ALCANTARILLAS",
+        "partida",
+        "m3"
+    ]
+]
