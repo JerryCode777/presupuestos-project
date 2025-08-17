@@ -1,7 +1,19 @@
-import logoProyecto from "./logoProyecto.png";
-import logoGoogle from "./logoGoogle.png";
-import documentosImagen from "./documentosImagen.png";
-import proyectosImagen from "./proyectosImagen.png";
-import perfilImagen from "./perfilImagen.png";
+import logo from "./logo.png";
+import google from "./google.png";
+import documents from "./documents.png";
+import profile from "./profile.png";
+import home from "./home.png";
+import projects from "./projects.png";
+import files from "./files.png";
+import subprojects from "./subprojects.png";
 
-export { logoProyecto, logoGoogle, documentosImagen, proyectosImagen, perfilImagen};
+export {
+  logo,
+  google,
+  documents,
+  profile,
+  home,
+  projects,
+  files,
+  subprojects,
+};

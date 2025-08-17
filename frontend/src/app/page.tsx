@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { logoProyecto, logoGoogle } from "../img/index";
+import { logo, google } from "../img/index";
 
 
 export default function LoginPage() {
@@ -90,13 +90,13 @@ export default function LoginPage() {
       <div className="w-full max-w-md min-h-[540px] bg-white border border-gray-200 rounded-lg shadow-lg p-8 flex flex-col items-center">
         {/* Logo */}
         <div className="mb-8 flex flex-col items-center">
-          <Image src={logoProyecto} alt="logoProyecto" width={120} height={120} />
+          <Image src={logo} alt="logoProyecto" width={120} height={120} />
         </div>
 
         {/* Social Buttons */}
         <div className="w-full flex flex-col gap-3 mb-6">
           <button className="flex items-center justify-center gap-2 w-full py-2 rounded-full border border-gray-400 text-gray-700 font-semibold hover:bg-gray-100 transition">
-            <Image src={logoGoogle} alt="logoGoogle" width={30} height={30} />
+            <Image src={google} alt="logoGoogle" width={30} height={30} />
             Continuar con Google
           </button>
         </div>

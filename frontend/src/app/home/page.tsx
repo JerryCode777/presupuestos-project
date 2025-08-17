@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { logoProyecto, perfilImagen } from "../../img";
+import * as images from "../../img";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Sidebar from "../../components/Sidebar";
@@ -31,7 +31,7 @@ export default function HomePage() {
       <div className="ml-14 flex flex-col min-h-screen">
         <header className="flex items-center justify-between px-8 py-5 bg-white border-b border-slate-200 shadow-sm">
           <div className="flex items-center gap-4">
-            <Image src={logoProyecto} alt="Logo app" width={48} height={48} />
+            <Image src={images.logo} alt="Logo app" width={48} height={48} />
             <span className="font-extrabold text-2xl text-slate-700">CivilCost</span>
           </div>
         </header>

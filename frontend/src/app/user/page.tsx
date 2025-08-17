@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Sidebar from "../../components/Sidebar";
-import { perfilImagen } from "../../img";
+import { profile } from "../../img";
 
 export default function UserSettingsPage() {
   const [nombre, setNombre] = useState("Juan Pérez");
@@ -11,7 +11,7 @@ export default function UserSettingsPage() {
   const [telefono, setTelefono] = useState("+54 11 1234 5678");
   const [cargo, setCargo] = useState("Ingeniero Civil Senior");
   const [empresa, setEmpresa] = useState("Constructora Los Andes S.A.C.");
-  const [perfil, setPerfil] = useState(perfilImagen);
+  const [perfil, setPerfil] = useState(profile);
 
   const handleSave = () => {
     console.log("Datos guardados:", { nombre, correo, telefono, cargo, empresa, perfil });
